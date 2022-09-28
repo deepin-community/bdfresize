@@ -1,0 +1,122 @@
+bdfresize (1.5-12) unstable; urgency=medium
+
+  * Add Rules-Requires-Root: no
+  * Use debhelper-compat 13
+  * Update debian/watch to version 4
+  * Update debian/copyright
+  * Update Standards-Version to 4.5.1
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Sun, 03 Jan 2021 10:50:30 +0900
+
+bdfresize (1.5-11) unstable; urgency=medium
+
+  * Update debhelper compat version to 11
+  * Migrate from anonscm.debian.org to salsa.debian.org
+  * Update debian/copyright
+  * Update Standards-Version to 4.1.4
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Mon, 04 Jun 2018 19:57:26 +0900
+
+bdfresize (1.5-10) unstable; urgency=medium
+
+  * Update debhelper compat version to 9
+  * Update Vcs-Browser to https
+  * Update Standards-Version to 3.9.8
+  * Update debian/copyright
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Mon, 09 Jan 2017 10:19:34 +0900
+
+bdfresize (1.5-9) unstable; urgency=medium
+
+  * Add Vcs-Git and Vcs-Browser
+  * Update debian/copyright
+  * Update Standards-Version to 3.9.5
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Sun, 24 Aug 2014 23:14:43 +0900
+
+bdfresize (1.5-8) unstable; urgency=low
+
+  * debian/rules: Use dpkg-buildflags to enable hardening flags
+  * Revert the previous debhelper bump
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Thu, 19 Jul 2012 23:03:54 +0900
+
+bdfresize (1.5-7) unstable; urgency=low
+
+  * Update debhelper compat level to 9 to support hardening flags
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Sun, 08 Jul 2012 16:43:36 +0900
+
+bdfresize (1.5-6) unstable; urgency=low
+
+  * debian/*: Rewritten.
+    - Simplify debian/rules with dh.
+    - Switch to copyright-format-1.0.
+    - Switch to dpkg-source 3.0 (quilt) format.
+    - Update Standards-Version to 3.9.3.
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Sun, 29 Apr 2012 00:42:46 +0900
+
+bdfresize (1.5-5) unstable; urgency=low
+
+  * New Maintainer. (Closes: #472706)
+  * debian/control:
+    - Description: Revised.
+    - Set Standards-Version to 3.7.3.
+  * debian/rules: Cleanup.
+  * debian/copyright: Updated.
+
+ -- Tatsuya Kinoshita <tats@debian.org>  Sat, 31 May 2008 15:47:48 +0900
+
+bdfresize (1.5-4) unstable; urgency=low
+
+  * QA Upload
+    + change maintainer to QA group
+    + acknowledge NMUs
+  * Increase debhelper compat level to 5
+  * Some debian/rules clean-up
+  * Add watch file
+
+ -- Frank Lichtenheld <djpig@debian.org>  Tue, 29 Apr 2008 19:10:22 +0200
+
+bdfresize (1.5-3.2) unstable; urgency=low
+
+  * NMU for xlibs-dev removal; closes: #346634.
+
+ -- Justin Pryzby <justinpryzby@users.sf.net>  Sat, 14 Jan 2006 11:06:43 -0500
+
+bdfresize (1.5-3.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Apply patch by Andreas Jochens to fix FTBFS with gcc 4.0
+    (Closes: #258509)
+
+ -- Frank Lichtenheld <djpig@debian.org>  Fri,  5 Aug 2005 21:36:24 +0200
+
+bdfresize (1.5-3) unstable; urgency=low
+
+  * change Maintainer address to @debian.org
+
+ -- Takuo KITAME <kitame@debian.org>  Wed, 13 Nov 2002 13:00:53 +0900
+
+bdfresize (1.5-2) unstable; urgency=low
+
+  * debian/control
+    - fix Build-Depends (closes: #137393)
+
+ -- Takuo KITAME <kitame@northeye.org>  Sat,  9 Mar 2002 14:18:25 +0900
+
+bdfresize (1.5-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/copyright:
+    - change to GPL2
+    - change Upstream URL and Authors
+
+ -- Takuo KITAME <kitame@northeye.org>  Mon,  4 Mar 2002 22:16:12 +0900
+
+bdfresize (1.4-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Takuo KITAME <kitame@northeye.org>  Wed, 15 Mar 2000 12:07:27 +0900

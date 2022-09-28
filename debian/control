@@ -1,0 +1,17 @@
+Source: bdfresize
+Section: x11
+Priority: optional
+Maintainer: Tatsuya Kinoshita <tats@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/debian/bdfresize
+Vcs-Git: https://salsa.debian.org/debian/bdfresize.git
+Homepage: http://openlab.jp/efont/
+Rules-Requires-Root: no
+
+Package: bdfresize
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: tool for resizing BDF format font
+ Bdfresize is a command to magnify or reduce fonts which are described with
+ the standard BDF format.

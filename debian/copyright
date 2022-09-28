@@ -1,0 +1,30 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bdfresize
+Source: http://openlab.jp/efont/dist/tools/bdfresize/
+
+Files: *
+Copyright: 1988, 1992, Hiroto Kagotani
+           2000, Kazuhiko
+           2000, Masao Uebayashi
+           1997, 98, 2000, Motoyuki Kasahara
+           1987-1998, Free Software Foundation, Inc.
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+Comment:
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: debian/*
+Copyright: 2012-2021, Tatsuya Kinoshita <tats@debian.org>
+License: permissive-debian
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted without restriction, with NO WARRANTY.
+ You may regard this as a work that is placed in the public domain.
